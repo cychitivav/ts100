@@ -239,14 +239,14 @@ const char* SettingsDescriptions[17] = {
   /* Automatic start mode               */ "Iniciar modo soldadura en el encendido. <V=Sí S=Modo reposo F=No>",
   /* Cooldown blink                     */ "Parpadea la temperatura en el enfriamiento si la punta sigue caliente.",
   /* Temperature calibration enter menu */ "Calibrate tip offset.",
-  /* Settings reset command             */ "Reset all settings",
-  /* Calibrate input voltage            */ "VIN Calibration. Buttons adjust, long press to exit",
-  /* Advanced soldering screen enabled  */ "Display detailed information while soldering",
+  /* Settings reset command             */ "Restablecer todos los ajustes",
+  /* Calibrate input voltage            */ "Calibración tensión de entrada. Ajustar con los botones, mantenga presionado para salir",
+  /* Advanced soldering screen enabled  */ "Visualice información detallada mientras esta soldando",
   /* Description Scroll Speed           */ "Speed this text scrolls past at",
 };
 
-const char* SettingsCalibrationWarning = "Please ensure the tip is at room temperature before continuing!";
-const char* SettingsResetWarning = "Are you sure to reset settings to default values?";
+const char* SettingsCalibrationWarning = "¡Asegúrese de que la punta esté a temperatura ambiente antes de continuar!";
+const char* SettingsResetWarning = "¿Está seguro de restablecer la configuración a los valores predeterminados?";
 const char* UVLOWarningString = "DC LOW";            // <=8 chars
 const char* UndervoltageString = "Undervoltage";     // <=16 chars
 const char* InputVoltageString = "Input V: ";        // <=11 chars, preferably end with a space
